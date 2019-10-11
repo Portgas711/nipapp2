@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NIPAPP2</string>
+    <string name="esa_es_gonorrea">ESA ES GONORREA</string>
+    <string name="lo_intentamos">¿Lo intentamos?</string>
+    <string name="play">PLAY</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="por_favor_indica_tu_nombre">Por favor indica tu nombre</string>
+    <string name="ingrese_nombre">Ingrese nombre</string>
+    <string name="cuantos_a_os_tienes">¿Cuantos años tienes?</string>
+    <string name="que_grado_estas">¿Que grado estas?</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="ayuda_1">Ayuda 1</string>
+    <string name="ayuda_2">Ayuda 2</string>
+    <string name="felicidades">¡Felicidades!</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="genial">¡GENIAL!</string>
+    <string name="consentirme">Consentirme</string>
+    <string name="seguir">Seguir</string>
+    <string name="comida">Comida</string>
+    <string name="armario">Armario</string>
+    <string name="tienda">Tienda</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="vegetales">Vegetales</string>
+    <string name="almacen">Almacen</string>
+    <string name="tienda1">Tienda</string>
+    <string name="almacen2">Almacen</string>
+    <string name="ingrese_correo">Ingrese Correo</string>
+    <string name="ingrese_password">Ingrese Password</string>
+
+</resources>

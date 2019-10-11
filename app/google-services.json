@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8380591796",
+    "firebase_url": "https://nipapp-ae57b.firebaseio.com",
+    "project_id": "nipapp-ae57b",
+    "storage_bucket": "nipapp-ae57b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8380591796:android:b9cedf0ddf50a01de431e1",
+        "android_client_info": {
+          "package_name": "com.example.nipapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8380591796-91ldup2b95sp6ccokk4td9qst490obeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nipapp2",
+            "certificate_hash": "8324962a024655f4166985f5a0f18cbbfb028158"
+          }
+        },
+        {
+          "client_id": "8380591796-ji05r5d6nr32vkbufiie0tro5b1iausm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6c2I5woyeQFHicwIMfVioyC0akAdexKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8380591796-ji05r5d6nr32vkbufiie0tro5b1iausm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
