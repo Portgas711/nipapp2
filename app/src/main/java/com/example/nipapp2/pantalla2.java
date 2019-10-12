@@ -79,17 +79,31 @@ public class pantalla2 extends AppCompatActivity {
         }
         progressDialog.setMessage("Realizando registro en linea");
         progressDialog.show();
-
+        configureNextButton();
         firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //checking if success
-                        if(task.isSuccessful()){
-                            configureNextButton();
-                            Toast.makeText(pantalla2.this,"Se ha registrado el usuario con el email: "+ TextEmail.getText(),Toast.LENGTH_LONG).show();
-                        }else{
 
+                        if(task.isSuccessful()){
+
+                            Toast.makeText(pantalla2.this,"Se ha registrado el usuario con el email: "+ TextEmail.getText(),Toast.LENGTH_LONG).show();
+                            ImageButton nextButton = (ImageButton) findViewById(R.id.next);
+
+                            nextButton.setOnClickListener(new View.OnClickListener(){
+
+                                @Override
+                                public void onClick(View view){
+                                    mp.start();
+                                    Vibrator vibrador = (Vibrator)getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+                                    vibrador.vibrate(500);
+                                    startActivity(new Intent(pantalla2.this,curso.class));
+                                }
+
+                            });
+                        }else{
+                            configureNextButton();
                             Toast.makeText(pantalla2.this,"No se pudo registrar el usuario ",Toast.LENGTH_LONG).show();
                         }
                         progressDialog.dismiss();
